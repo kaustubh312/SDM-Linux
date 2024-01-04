@@ -38,3 +38,7 @@ sudo docker build -t transflower .
 sudo docker run -d -p 8000:8000 transflower
 sudo docker ps
 run on browser
+
+sudo apt install npm
+npm install express
+node server.js
