@@ -1,0 +1,40 @@
+pwd
+mkdir ....
+ls
+cat ....
+touch ....
+nano .....
+sudo apt update
+sudo apt install nodejs
+node hello.js
+
+mv ....(rename)
+
+var http = require('http')
+var onReceiveServer = function(req,res){
+  res.write("<h1>IET</h1>");
+  res.end();
+};
+var app = http.createServer(onReceiveServer);
+app.listen(9000);
+console.log("listening on port 9000");
+
+node .....js
+
+
+DOCKER :-
+sudo apt update
+git clone .....
+sudo apt install docker.io
+ps
+sudo systemctl --type=service --stste=running
+sudo docker ps
+sudo docker images
+sudo docker build -t vijaysales .
+sudo docker run -d -p 8000:8000 vijaysales
+
+sudo docker rmi (image id) -f
+sudo docker build -t transflower .
+sudo docker run -d -p 8000:8000 transflower
+sudo docker ps
+run on browser
